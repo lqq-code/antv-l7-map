@@ -1,0 +1,14 @@
+.icon___2_VLA {
+  /* margin-left: 170px !important; */
+}
+.l7-popup-content {
+  position: relative;
+  background: black!important;
+  color: #fff;
+  border-radius: 3px;
+  -webkit-box-shadow: 0 1px 2px rgb(0 0 0 / 10%);
+  box-shadow: 0 1px 2px rgb(0 0 0 / 10%);
+  padding: 10px 10px 15px;
+  pointer-events: auto;
+  font-weight: 500;
+}
