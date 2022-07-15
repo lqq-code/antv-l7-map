@@ -1,83 +1,17 @@
+demo地址：https://antv-l7-map-lqq-code.vercel.app/map
 
+1、支持时间搜索
+2、支持省级下钻
+3、悬浮预警
 
-This project is initialized with [Ant Design Pro](https://pro.ant.design). Follow is the quick guide for how to use.
-
-## Environment Prepare
-
-Install `node_modules`:
-
-```bash
-npm install
-```
-
-or
+<img width="1436" alt="image" src="https://user-images.githubusercontent.com/61107184/179145209-9cc930ba-a6e5-470e-9403-943a5dfb75ed.png">
 
 ```bash
-yarn
-```
 
-## Provided Scripts
-
-Ant Design Pro provides some useful script to help you quick start and build with web project, code style check and test.
-
-Scripts provided in `package.json`. It's safe to modify or add additional script:
-
-### Start project
+<img width="1439" alt="image" src="https://user-images.githubusercontent.com/61107184/179145326-c1962a67-99ad-4450-9929-58ec9bd53f3e.png">
 
 ```bash
-npm start
-```
 
-### Build project
+<img width="1420" alt="image" src="https://user-images.githubusercontent.com/61107184/179145377-ae6f1250-97c0-4d1a-8baa-dea26411200e.png">
 
 ```bash
-npm run build
-```
-
-### Check code style
-
-```bash
-npm run lint
-```
-
-You can also use script to auto fix some lint error:
-
-```bash
-npm run lint:fix
-```
-
-### Test code
-
-```bash
-npm test
-```
-
-## Git Commit Message Style
-
-#### Format
-
-\<type>(\<scope>): \<subject>
-
-#### Type
-
-**feat**: A new feature
-
-**fix**: A bug fix
-
-**docs**: Changes to documentation
-
-**style**: Formatting, missing semi colons, etc; no code change
-
-**refactor**: Refactoring production code
-
-**test**: Adding tests, refactoring test; no production code change
-
-**chore**: Updating build tasks, package manager configs, etc; no production code change
-
-#### Example
-
-feat: add user login
-
-## More
-
-You can view full document on our [official website](https://pro.ant.design). And welcome any feedback in our [github](https://github.com/ant-design/ant-design-pro).
