@@ -45,7 +45,8 @@
   "browserslist": [
     "> 0.5%", 
     "last 2 versions",
-    "Firefox ESR", "not dead"
+    "Firefox ESR", 
+    "not dead"
   ],
   "dependencies": {
     "@ant-design/icons": "^4.5.0",
