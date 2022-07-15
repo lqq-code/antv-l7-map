@@ -12,9 +12,7 @@ export default {
 
     var _Footer = _interopRequireDefault(await import("@/components/Footer"));
 
-    var _default = function _default() {
-      return /*#__PURE__*/_react.default.createElement(_Footer.default, null);
-    };
+    var _default = () => /*#__PURE__*/_react.default.createElement(_Footer.default, null);
 
     return _default;
   },
@@ -33,8 +31,8 @@ export default {
 
     var _HeaderDropdown = _interopRequireDefault(await import("@/components/HeaderDropdown"));
 
-    var _default = function _default() {
-      var menuHeaderDropdown = /*#__PURE__*/_react.default.createElement(_antd.Menu, {
+    var _default = () => {
+      const menuHeaderDropdown = /*#__PURE__*/_react.default.createElement(_antd.Menu, {
         selectedKeys: []
       }, /*#__PURE__*/_react.default.createElement(_antd.Menu.Item, {
         key: "center"
@@ -66,8 +64,8 @@ export default {
 
     var _NoticeIcon = _interopRequireDefault(await import("@/components/NoticeIcon/NoticeIcon"));
 
-    var _default = function _default() {
-      var list = [{
+    var _default = () => {
+      const list = [{
         id: '000000001',
         avatar: 'https://gw.alipayobjects.com/zos/rmsportal/ThXAXghbEsBCCSDihZxY.png',
         title: '你收到了 14 份新周报',
@@ -82,18 +80,14 @@ export default {
       }];
       return /*#__PURE__*/_react.default.createElement(_NoticeIcon.default, {
         count: 10,
-        onItemClick: function onItemClick(item) {
+        onItemClick: item => {
           _antd.message.info("".concat(item.title, " \u88AB\u70B9\u51FB\u4E86"));
         },
-        onClear: function onClear(title, key) {
-          return _antd.message.info('点击了清空更多');
-        },
+        onClear: (title, key) => _antd.message.info('点击了清空更多'),
         loading: false,
         clearText: "\u6E05\u7A7A",
         viewMoreText: "\u67E5\u770B\u66F4\u591A",
-        onViewMore: function onViewMore() {
-          return _antd.message.info('点击了查看更多');
-        },
+        onViewMore: () => _antd.message.info('点击了查看更多'),
         clearClose: true
       }, /*#__PURE__*/_react.default.createElement(_NoticeIcon.default.Tab, {
         tabKey: "notification",

@@ -79,13 +79,8 @@ export function getRoutes() {
               "locale": "en-US",
               "order": null,
               "filePath": "README.md",
-              "updatedTime": 1646381026278,
+              "updatedTime": 1657792706000,
               "slugs": [
-                {
-                  "depth": 1,
-                  "value": "xboilerplate",
-                  "heading": "xboilerplate"
-                },
                 {
                   "depth": 2,
                   "value": "Environment Prepare",
@@ -142,9 +137,9 @@ export function getRoutes() {
                   "heading": "more"
                 }
               ],
-              "title": "xboilerplate"
+              "title": "Environment Prepare"
             },
-            "title": "xboilerplate"
+            "title": "Environment Prepare"
           },
           {
             "path": "/~docs/components",
@@ -152,7 +147,7 @@ export function getRoutes() {
             "exact": true,
             "meta": {
               "filePath": "src/components/index.md",
-              "updatedTime": 1646381026284,
+              "updatedTime": 1657798912000,
               "title": "业务组件",
               "sidemenu": false,
               "slugs": [
