@@ -111,6 +111,9 @@
     "stylelint": "^13.0.0",
     "typescript": "^4.2.2"
   },
+  "engines": {
+    "node": ">=14.0.0"
+  },
   "gitHooks": {
     "commit-msg": "fabric verify-commit"
   }
