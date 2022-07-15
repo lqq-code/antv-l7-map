@@ -214,7 +214,7 @@ export function getRoutes() {
         "name": "map",
         "icon": "GroupOutlined",
         "access": "canAdmin",
-        "component": dynamic({ loader: () => import(/* webpackChunkName: 'p__map__index' */'/Users/luoqiaoqiao/Desktop/antv-l7-map/src/pages/map/index'), loading: LoadingComponent}),
+        "component": dynamic({ loader: () => import(/* webpackChunkName: 'p__Map__index' */'/Users/luoqiaoqiao/Desktop/antv-l7-map/src/pages/Map/index'), loading: LoadingComponent}),
         "exact": true
       },
       {

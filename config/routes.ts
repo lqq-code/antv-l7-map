@@ -4,7 +4,7 @@
     name: 'map',
     icon: 'GroupOutlined',
     access: 'canAdmin',
-    component: './map/index',
+    component: './Map/index',
   },
   
   {
