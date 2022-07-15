@@ -203,10 +203,10 @@ export function getRoutes() {
                 "title": "Components"
               }
             },
-            "title": "业务组件 - xboilerplate"
+            "title": "业务组件 - antv-l7"
           }
         ],
-        "title": "xboilerplate",
+        "title": "antv-l7",
         "component": (props) => props.children
       },
       {

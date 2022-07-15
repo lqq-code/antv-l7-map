@@ -35,7 +35,7 @@ export default props => {
   }, [initialInfo?.initialState, access]);
 
   const userConfig = {
-    ...{'name':'xboilerplate','theme':'PRO','locale':true,'showBreadcrumb':true,'siderWidth':208,'navTheme':'light','primaryColor':'#2952EC','layout':'mix','contentWidth':'Fluid','fixedHeader':false,'fixSiderbar':true,'colorWeak':false,'title':'CraiditX','pwa':false,'iconfontUrl':''},
+    ...{'name':'antv-l7','theme':'PRO','locale':true,'showBreadcrumb':true,'siderWidth':208,'navTheme':'light','primaryColor':'#2952EC','layout':'mix','contentWidth':'Fluid','fixedHeader':false,'fixSiderbar':true,'colorWeak':false,'title':'CraiditX','pwa':false,'iconfontUrl':''},
     ...runtimeConfig || {}
   };
 

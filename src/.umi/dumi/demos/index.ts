@@ -6,7 +6,7 @@ export default {
   'components-demo': {
     component: dynamic({
   loader: async function () {
-    var _interopRequireDefault = require("/Users/luoqiaoqiao/Desktop/antv-l7-map/node_modules/@umijs/babel-preset-umi/node_modules/@babel/runtime/helpers/interopRequireDefault");
+    var _interopRequireDefault = (await import("/Users/luoqiaoqiao/Desktop/antv-l7-map/node_modules/@babel/runtime/helpers/interopRequireDefault.js")).default;
 
     var _react = _interopRequireDefault(await import("react"));
 
@@ -23,7 +23,7 @@ export default {
   'components-demo-1': {
     component: dynamic({
   loader: async function () {
-    var _interopRequireDefault = require("/Users/luoqiaoqiao/Desktop/antv-l7-map/node_modules/@umijs/babel-preset-umi/node_modules/@babel/runtime/helpers/interopRequireDefault");
+    var _interopRequireDefault = (await import("/Users/luoqiaoqiao/Desktop/antv-l7-map/node_modules/@babel/runtime/helpers/interopRequireDefault.js")).default;
 
     var _antd = await import("antd");
 
@@ -56,7 +56,7 @@ export default {
   'components-demo-2': {
     component: dynamic({
   loader: async function () {
-    var _interopRequireDefault = require("/Users/luoqiaoqiao/Desktop/antv-l7-map/node_modules/@umijs/babel-preset-umi/node_modules/@babel/runtime/helpers/interopRequireDefault");
+    var _interopRequireDefault = (await import("/Users/luoqiaoqiao/Desktop/antv-l7-map/node_modules/@babel/runtime/helpers/interopRequireDefault.js")).default;
 
     var _antd = await import("antd");
 
