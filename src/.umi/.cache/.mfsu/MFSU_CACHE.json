@@ -176,6 +176,13 @@
     "antd/es/button": "4.21.6",
     "antd/es/button/style": "4.21.6",
     "antd/es/result": "4.21.6",
-    "antd/es/result/style": "4.21.6"
+    "antd/es/result/style": "4.21.6",
+    "dumi-theme-default/es/builtins/Tree.js": "1.1.22",
+    "dumi-theme-default/es/builtins/Table.js": "1.1.22",
+    "dumi-theme-default/es/builtins/SourceCode.js": "1.1.22",
+    "dumi-theme-default/es/builtins/Example.js": "1.1.22",
+    "dumi-theme-default/es/builtins/Badge.js": "1.1.22",
+    "dumi-theme-default/es/builtins/Alert.js": "1.1.22",
+    "dumi-theme-default/es/builtins/API.js": "1.1.22"
   }
 }
