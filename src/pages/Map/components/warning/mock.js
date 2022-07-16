@@ -27,7 +27,7 @@ export const mockMapList = (time) => {
             },
         ]
     }
-    if (!time || time == 'today') {
+    if (time == 'today') {
         return [{
                 name: '上海市',
                 alarmTotal: 120000,
@@ -59,7 +59,7 @@ export const mockMapList = (time) => {
             }
         ]
     }
-    if (!time || time == 'yesterday') {
+    if (time == 'yesterday') {
         return [{
                 name: '上海市',
                 alarmTotal: 220000,
@@ -96,7 +96,7 @@ export const mockMapList = (time) => {
             }
         ]
     }
-    if (!time || time == 'week') {
+    if (time == 'week') {
         return [{
                 name: '上海市',
                 alarmTotal: 1892342,
@@ -138,7 +138,7 @@ export const mockMapList = (time) => {
             }, {}
         ]
     }
-    if (!time || time == 'month') {
+    if (time == 'month') {
         return [{
                 name: '上海市',
                 alarmTotal: 302322442,
@@ -200,4 +200,5 @@ export const mockMapList = (time) => {
             },
         ]
     }
+    
 };
