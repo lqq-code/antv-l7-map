@@ -198,6 +198,12 @@ export const mockMapList = (time) => {
                 processedAlarmNum: 7,
                 pendingAlarmNum: 73
             },
+            , {
+                name: '辽宁省',
+                alarmTotal: 80,
+                processedAlarmNum: 7,
+                pendingAlarmNum: 73
+            },
         ]
     }
     
