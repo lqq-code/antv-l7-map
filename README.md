@@ -1,6 +1,6 @@
 demo地址：https://antv-l7-map-lqq-code.vercel.app/map
 
-1、支持时间搜索
+1、支持根据时间区间渲染地图数据
 2、支持省级下钻
 3、悬浮预警
 4、图例展示预警区间
